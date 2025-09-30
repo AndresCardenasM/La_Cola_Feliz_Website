@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Cola Feliz</title>
+    <script src="./js.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="row container">
+      <a href="#" class="logo">
+        <img
+          src="./Icons/pets-hotel-house-sign-with-a-paw-svgrepo-com.svg"
+          alt="logo"
+        />
+      </a>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+      <nav class="navigation row">
+        <span class="closeMenu" onclick="toggleMenu();">&times;</span>
+        <ul class="row menu-links">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contáctanos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+        </ul>
+        <div class="menu-actions">
+          <a href="#login" class="page-btn active">Ingresar</a>
+          <a href="#registro" class="page-btn">Registrarse</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="row flex container">
+        <div class="hero-content">
+          <h1>¡Cuidamos con mucho amor a tu mascota!</h1>
+          <p>Tu tranquilidad, su felicidad.</p>
+          <a href="#servicios" class="page-btn row">Explorar más →</a>
+        </div>
+        <div class="hero-img row">
+          <img src="./Logos and Pictures/Mascotas.png" alt="mascotas" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="service" id="servicios">
+      <div class="container">
+        <h2>Nuestros <span>Servicios</span></h2>
+        <div class="service-cards column">
+          <div class="s-card">
+            <img
+              src="./Icons/man-combing-a-dog-svgrepo-com.svg"
+              alt="Grooming"
+            />
+            <h3>Peluquería</h3>
+          </div>
+
+          <div class="s-card">
+            <img
+              src="./Icons/dog-checked-by-a-veterinary-svgrepo-com.svg"
+              alt="Salud"
+            />
+            <h3>Salud</h3>
+          </div>
+
+          <div class="s-card">
+            <img
+              src="./Icons/dog-in-front-of-a-man-svgrepo-com.svg"
+              alt="Guardería"
+            />
+            <h3>Guardería</h3>
+          </div>
+
+          <div class="s-card">
+            <img
+              src="./Icons/man-throwing-a-disc-and-dog-jumping-to-catch-it-svgrepo-com.svg"
+              alt="Entrenamiento"
+            />
+            <h3>Entrenamiento</h3>
+          </div>
+
+          <div class="s-card">
+            <img
+              src="./Icons/dog-having-a-bubbles-bath-svgrepo-com.svg"
+              alt="Higiene"
+            />
+            <h3>Higiene</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about" id="nosotros">
+      <div class="container row">
+        <div class="about-text">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Llevamos más de dos décadas cuidando de tus mascotas como si fueran
+            nuestras. Nos apasiona brindar amor, atención y cuidado profesional
+            a cada perro.
+          </p>
+          <a href="#contacto" class="page-btn">Conoce más</a>
+        </div>
+        <div class="about-img">
+          <img
+            src="./Logos and Pictures/dog-smile-featured.webp"
+            alt="perro feliz"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="products" id="productos">
+      <div class="container">
+        <h2>Alimentos y Nutrientes para tu perro <span>25% OFF</span></h2>
+        <div class="product-cards row">
+          <div class="p-card">
+            <img src="./Logos and Pictures/cheaper.png" alt="drools" />
+            <h3>Digestix - 3KG</h3>
+            <p>Alimento completo para perros adultos.</p>
+            <a href="#" class="page-btn">Comprar</a>
+          </div>
+          <div class="p-card">
+            <img
+              src="./Logos and Pictures/Luxury-food.png"
+              alt="canine creek"
+            />
+            <h3>Opticanine - 10KG</h3>
+            <p>Alimento premium sin granos.</p>
+            <a href="#" class="page-btn">Comprar</a>
+          </div>
+          <div class="p-card">
+            <img src="./Logos and Pictures/snacks.png" alt="biscuits" />
+            <h3>Vibrato - 320g</h3>
+            <p>Aliento fresco y dientes sanos</p>
+            <a href="#" class="page-btn">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonials" id="testimonios">
+      <div class="container">
+        <h2>Clientes Felices</h2>
+        <div class="testimonial-cards row">
+          <div class="t-card">
+            <img
+              src="./Logos and Pictures/Copilot_20250820_191109.png"
+              alt="cliente 1"
+            />
+            <p>Productos y servicio excelentes. ¡Siempre a tiempo!</p>
+            <h4>Ana & Toby ★★★★★</h4>
+          </div>
+          <div class="t-card">
+            <img src="./Logos and Pictures/cop 3.png" alt="cliente 2" />
+            <p>Mi perro está más feliz desde que los encontré.</p>
+            <h4>Carlos & Max ★★★★★</h4>
+          </div>
+          <div class="t-card">
+            <img src="./Logos and Pictures/copilot 2.png" alt="cliente 3" />
+            <p>Atención de primera, 100% recomendados.</p>
+            <h4>Laura & Rocky ★★★★★</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AFILIADOS -->
+    <section class="affiliate">
+      <div class="container">
+        <h2>Únete a nuestro programa de afiliados</h2>
+        <form class="affiliate-form">
+          <input type="email" placeholder="Ingresa tu correo aquí" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contacto">
+      <div class="container row">
+        <p>© 2025 La Cola Feliz. Todos los derechos reservados.</p>
+        <div class="social">
+          <a href="#"><img src="./Icons/Facebok.svg" alt="facebook" /></a>
+          <a href="#"><img src="./Icons/instagram.svg" alt="instagram" /></a>
+        </div>
+      </div>
+    </footer>
+    <!-- MODALES -->
+    <div id="overlay"></div>
+
+    <div class="modal" id="modal-login">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Iniciar Sesión</h2>
+        <form id="formLogin">
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <span class="error"></span>
+          <input
+            type="password"
+            name="contrasena"
+            placeholder="Contraseña"
+            required
+          />
+          <span class="error"></span>
+          <button type="submit" class="page-btn">Ingresar</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-registro">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Registrarse</h2>
+        <form id="formRegistro">
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Nombre completo"
+            required
+          />
+          <span class="error"></span>
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <span class="error"></span>
+          <input
+            type="password"
+            name="contrasena"
+            placeholder="Contraseña"
+            required
+          />
+          <span class="error"></span>
+          <button type="submit" class="page-btn">Crear cuenta</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
